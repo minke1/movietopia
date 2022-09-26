@@ -61,7 +61,7 @@ function App() {
   return (
     <div>
       <div>
-        <button onClick={handleNewestClick}>최신순</button>
+        <button onClick={handleNewestClick}>최신순..</button>
         <button onClick={handleBestClick}>베스트순</button>
       </div>
       <ReviewForm onSubmitSuccess={handleSubmitSuccess} />
